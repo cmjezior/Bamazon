@@ -6,8 +6,8 @@ USE bamazon;
 
 CREATE TABLE products (
   item_id INTEGER(10) AUTO_INCREMENT NOT NULL,
-  product_name VARCHAR(100) NOT NULL,
-  department_name VARCHAR(100) NOT NULL,
+  product_name VARCHAR(300) NOT NULL,
+  department_name VARCHAR(300) NOT NULL,
   price DECIMAL(10,2) NOT NULL,
   stock_quantity INT NOT NULL,
   PRIMARY KEY (item_id)
@@ -50,13 +50,13 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ('Buena Vista Sonoma Merlot 2012', 'Merlot', 12.99, 19);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Robert Mondavi Napa Valley Cabernet Sauvignon 2014', 'Cabernet Sauvignon', 25.99, 19);
+VALUES ('Robert Mondavi Napa Valley Cabernet Sauvignon 2014', 'Cabernet Sauvignon', 25.99, 45);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('The Vegan Vine Cabernet Sauvignon 2013', 'Cabernet Sauvignon', 16.99, 19);
+VALUES ('The Vegan Vine Cabernet Sauvignon 2013', 'Cabernet Sauvignon', 16.99, 45);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Meiomi Pinot Noir 2016', 'Pinot Noir', 19.99, 19);
+VALUES ('Meiomi Pinot Noir 2016', 'Pinot Noir', 19.99, 31);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ('Amity Willamette Valley Pinot Noir 2014', 'Pinot Noir', 28.99, 19);
+VALUES ('Amity Willamette Valley Pinot Noir 2014', 'Pinot Noir', 28.99, 31);
